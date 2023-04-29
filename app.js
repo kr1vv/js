@@ -104,6 +104,10 @@ for (let i = 0; i < squares.length; i++) {
   console.log(squares[i]);
 }
 
+square5.addEventListener("mouseover", () => {
+  console.log("kursor na elemencie");
+});
+
 // const squares = document.querySelectorAll(".square");
 // squares.forEach((square) => {
 //   square.addEventListener("click", () => {
